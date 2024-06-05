@@ -48,4 +48,4 @@ jobs:
         
     - name: Test with pytest
       run: |
-        pytest Python Test 7.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+        pytest practice.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
